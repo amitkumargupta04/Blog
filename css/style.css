@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.navigation{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red;  */
+}
+.nav-left{
+  display: flex;
+  font-size: 25px;
+  margin-left: 5px;
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left span{
+    font-size: 45px;
+    padding: 5px;
+}
+
+.nav-left ul li{
+    list-style: none;
+
+}
+.nav-left ul a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 6px;
+}
+.nav-left ul a:hover{
+    color: white;
+    background-color: rgb(149, 68, 68);
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    
+}
+.nav-left ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 75px;
+    font-size: 18px;
+}
+
+.content{
+    height: 100%;
+    margin-top: 32px;
+    padding: 8px;
+     /* background-color: aqua;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url('../image/pexels-ketut-subiyanto-4350173.jpeg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+}
+
+.content-left{
+    width: 50%;
+    margin: 15px;
+}
+.content-left h1{
+    margin-bottom: 18px;
+    
+}
+.content-right{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.content-right img{
+    height: 280px;
+    width: 270;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.home-articles{
+    padding: 15px;
+    background-color: rgb(246, 245, 245);
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    height: 235px;
+    width: 235px;
+    right: 150px;
+    top: 100px;
+
+
+}
+.year-box div{
+    margin-top: 10px;
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-article img{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0px 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height: 60px;
+    background-color: rgb(149, 68, 68);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer a{
+    color: white;
+    
+}
